@@ -4,8 +4,15 @@
     background-color: aqua;
     display: grid;
     grid-gap: 0px;
-    grid-template-columns: minmax(30px, 300px) 200px minmax(60px, 250px)   ; 
-    grid-template-rows: repeat(3, auto) ;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))
+}
+.contenedor-2{
+    border: 5px solid   #ffedd6;
+    background-color: aqua;
+    display: grid;
+    margin-top: 100pxs;
+    grid-gap: 0px;
+    grid-template-columns: repeat(auto-fill,minmax(100px, 1fr));
 }
 .item{
     border: 5px solid #ff0404;
